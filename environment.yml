@@ -1,0 +1,30 @@
+name: workplace_safety
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - opencv
+  - ffmpeg
+  - scikit-image
+  - filterpy
+  - tqdm
+  - imutils
+  - sqlite
+  - pip:
+      - deepface
+      - fastapi
+      - uvicorn[standard]
+      - mtcnn
+      - retina-face
+      - insightface
+      - torch
+      - torchvision
+      - torchaudio
+      - pydantic
+      - jinja2
